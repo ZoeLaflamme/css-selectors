@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2;
+    padding: 0 2em;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+p {
+    margin: .5em 0;
+}
+
+h1 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+div > header {
+    margin: 1em 0;
+}
+
+h2 {
+   text-transform: uppercase;
+   border-bottom: 2xp solid #000;
+}
+
+p > header {
+    font-size: 1.25rem;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/*rel=external"" {*/
+    color: purple;}
+
+
+#section-experience {
+    border-bottom: 2px dashed #ccc;
+}
+
+section > main {
+    margin-bottom: 3rem;
+}
+
+/*strong tag inside p after h2 section inside main {*/
+    color: purple;
+}
+
+li {
+    color: purple;
+}
+
+div > dl {
+    background-color: #ccc;
+}
