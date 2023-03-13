@@ -12,7 +12,13 @@ p {
     margin: .5em 0;
 }
 
-h3, h1 + p { fix somewhere
+h1 + p{ 
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3 + p{ 
     color: purple;
     font-family: sans-serif;
     font-weight: bold;
@@ -36,12 +42,11 @@ p > header {
     border-radius: 50%;
 }
 
-a [rel="external"] { fix 
+a[rel="_external"] {
     color: purple;
 }
 
-
-#section-experience { fix
+#experience section:first-of-type {
     border-bottom: 2px dashed #ccc;
 }
 
@@ -49,8 +54,7 @@ section > main {
     margin-bottom: 3rem;
 }
 
-/*strong tag inside p after h2 section inside main {*/
- strong > p + h2+ section > main {
+main section > h2 + p strong {
     color: purple;
 }
 
