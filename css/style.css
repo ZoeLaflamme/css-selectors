@@ -12,7 +12,7 @@ p {
     margin: .5em 0;
 }
 
-h1 + p {
+h3, h1 + p { fix somewhere
     color: purple;
     font-family: sans-serif;
     font-weight: bold;
@@ -24,7 +24,7 @@ div > header {
 
 h2 {
    text-transform: uppercase;
-   border-bottom: 2xp solid #000;
+   border-bottom: 2px solid #000;
 }
 
 p > header {
@@ -36,11 +36,12 @@ p > header {
     border-radius: 50%;
 }
 
-/*rel=external"" {*/
-    color: purple;}
+a [rel="external"] { fix 
+    color: purple;
+}
 
 
-#section-experience {
+#section-experience { fix
     border-bottom: 2px dashed #ccc;
 }
 
@@ -49,10 +50,11 @@ section > main {
 }
 
 /*strong tag inside p after h2 section inside main {*/
+ strong > p + h2+ section > main {
     color: purple;
 }
 
-li {
+li:nth-child(2) {
     color: purple;
 }
 
